@@ -20,7 +20,7 @@
         "type": "number",
         "example": 100.00
       },
-      "averageFare": {
+      "averageFareCollected": {
         "description": "The average fare is the average of all fares collected from the Flight Results page. FareNet usually collects the lowest fare though exceptions may apply.",
         "type": "number",
         "example": 100.00
@@ -30,6 +30,10 @@
         "type": "number",
         "example": 1000
       },
+      "averageBookedFare": {
+        "description": "The average fare is the average of all fares collected from the Confirmation page. FareNet usually collects the total fare of the trasaction though exceptions may apply." 
+          "type": "number",
+        "example": 100.00
       "cos": {
         "description": "Cost of Sales (CoS) is Cost divided by Revenue",
         "type": "number",
